@@ -29,3 +29,32 @@ li{
 li:hover{
     color: chartreuse;
 }
+.banner-img{
+    width: 300px;
+    
+}
+.banner-container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("images/background.png"),
+    linear-gradient(45deg,#1a1818, #1a1515);
+    
+}
+.banner-text{
+    color: whitesmoke;
+    font-size: 25px;
+    margin: 0px 0px 0px 50px;
+}
+.btn{
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    padding: 5px;
+
+}
+
+.text-font{
+    font-size: 50px;
+}
