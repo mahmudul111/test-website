@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgb(34, 32, 32);
+    color: aliceblue;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo-photo{
+    width: 120px;
+}
+.menus{
+        display: flex;
+        align-items: center;
+        
+}
+li{
+    margin: 15px;
+    padding: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+li:hover{
+    color: chartreuse;
+}
