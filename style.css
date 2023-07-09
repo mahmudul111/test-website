@@ -57,4 +57,106 @@ li:hover{
 
 .text-font{
     font-size: 50px;
+    font-weight: bold;
+}
+.description{
+    font-size: 30px;
+    
+}
+/* about-section */
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+
+}
+.header-section{
+            text-align: center;
+            font-size: 55px;
+            margin-top: 20px;
+            padding: 10px;
+}
+.about-font{
+    margin-top: 50px;
+    font-size: 35px;
+    width: 50%;
+}
+.about-photo{
+    margin-top: 50px;
+}
+.about-img{
+    width: 400px;
+    margin-left: 150px;
+}
+.about-description{
+    margin-top: 20px;
+    font-size: 25px;
+ 
+    
+}
+.btn-contact{
+    margin-top: 20px;
+    border: 0px;
+    padding: 20px;
+}
+/* services section */
+.service-section{
+   
+    background-color: #141313;
+}
+.service-header{
+   margin-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 100px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('images/background.png');
+    height: 60vh;
+    linear-gradient(45deg,#1a1818, #1a1515);
+    margin: 0px 120px;
+    
+
+
+}
+.service-description{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.service-title{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+.service-img{
+    width: 100px;
+    height: 100px;
+    margin-left: 85px;
+    
+}
+.service-item{
+    margin: 40px ;
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    border: 5px slid black;
+    box-shadow: 1px 1px 10px 10px gray;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+.btn-details{
+    border: 1px solid rgb(36, 34, 34);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
